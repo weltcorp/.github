@@ -66,18 +66,14 @@ body:
         - Opera
     validations:
       required: false
-  - type: dropdown
+  - type: input
     id: os
     attributes:
       label: "OS"
-      description: What is the impacted environment ?
-      multiple: true
-      options:
-        - Windows
-        - Linux
-        - Mac
+      description: 
+      placeholder: ex. iOS 16.2
     validations:
-      required: false
+      required: true
   - type: dropdown
     id: device
     attributes:
@@ -93,4 +89,4 @@ body:
         - iPhone12 mini
         - iPhone8
     validations:
-      required: false
+      required: true
