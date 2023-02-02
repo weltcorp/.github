@@ -78,3 +78,19 @@ body:
         - Mac
     validations:
       required: false
+  - type: dropdown
+    id: device
+    attributes:
+      label: "Device"
+      description: 
+      multiple: true
+      options:
+        - iPhone14
+        - iPhone14 mini
+        - iPhone13
+        - iPhone13 mini
+        - iPhone12
+        - iPhone12 mini
+        - iPhone8
+    validations:
+      required: false
