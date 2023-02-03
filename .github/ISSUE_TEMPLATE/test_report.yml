@@ -73,7 +73,7 @@ body:
       description: 
       placeholder: ex. iOS 16.2
     validations:
-      required: true
+      required: false
   - type: dropdown
     id: device
     attributes:
@@ -89,4 +89,4 @@ body:
         - iPhone12 mini
         - iPhone8
     validations:
-      required: true
+      required: false
