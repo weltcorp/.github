@@ -1,6 +1,6 @@
 name: "Implementation"
 description: Create a new ticket for a new feature request
-title: " "
+title: "impl: "
 labels: [
   "enhancement"
 ]
