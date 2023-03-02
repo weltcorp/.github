@@ -1,6 +1,6 @@
 name: "Requirement"
 description: Create a new ticket for a new feature
-title: "Req: "
+title: "srs: "
 labels: [
   "requirement"
 ]
