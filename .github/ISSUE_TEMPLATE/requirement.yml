@@ -1,0 +1,30 @@
+name: "Requirement"
+description: Create a new ticket for a new feature
+title: "Req: "
+labels: [
+  "requirement"
+]
+body:
+  - type: textarea
+    id: description
+    attributes:
+      label: "Description"
+      description: Please enter an explicit description of your issue
+      placeholder: Short and explicit description of your incident...
+    validations:
+      required: true
+  - type: textarea
+    id: screenshot
+    attributes:
+      label: "Screenshots"
+      description: If applicable, add screenshots to help explain your problem.
+    validations:
+      required: false
+  - type: input
+    id: requirement-url
+    attributes:
+      label: "Requirement"
+      description: Please enter your Requirement URL
+      placeholder: ex. https://github.com/requirements/xxx
+    validations:
+      required: false
