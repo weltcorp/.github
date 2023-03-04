@@ -1,0 +1,55 @@
+name: "Test Case Specification"
+description: Create a new ticket for a test case specification
+title: "[TC] "
+labels: [
+  "tcs"
+]
+body:
+  - type: textarea
+    id: description
+    attributes:
+      label: "Summary"
+      description: Please enter an explicit description of your issue
+      placeholder: 
+    validations:
+      required: false
+  - type: textarea
+    id: steps
+    attributes:
+      label: "Test steps"
+      description: 
+      value: |
+        1. Go to '...'
+        2. Click on '....'
+        3. Scroll down to '....'
+        4. See error
+      render: bash
+    validations:
+      required: true
+  - type: textarea
+    id: expected
+    attributes:
+      label: "Expected"
+      description: Please enter an expected result
+      placeholder: 
+    validations:
+      required: false
+  - type: input
+    id: srs-link
+    attributes:
+      label: "SRS"
+      description: Please enter SRS issue link
+    validations:
+      required: true
+  - type: dropdown
+    id: platform
+    attributes:
+      label: "Platform"
+      description: 
+      multiple: true
+      options:
+        - iOS
+        - Android
+        - Web
+    validations:
+      required: false
