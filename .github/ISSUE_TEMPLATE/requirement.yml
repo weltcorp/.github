@@ -2,7 +2,7 @@ name: "Requirement"
 description: Create a new ticket for a new feature
 title: "srs: "
 labels: [
-  "requirement"
+  "srs"
 ]
 body:
   - type: textarea
