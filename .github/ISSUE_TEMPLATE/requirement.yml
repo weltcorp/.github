@@ -29,7 +29,7 @@ body:
     validations:
       required: false
   - type: input
-    id: requirement-url
+    id: ui-guideline-url
     attributes:
       label: "UI Guideline"
       description: Please enter a link of UI Guideline.
@@ -40,9 +40,8 @@ body:
     attributes:
       label: "UI IDs"
       description: Please enter a list of IDs specified in the UI Guideline.
+      value: |
+        * 
+        * 
     validations:
       required: false
-    value: |
-        * Click on '....'
-        * Scroll down to '....'
-        * See error
