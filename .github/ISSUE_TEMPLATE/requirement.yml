@@ -43,7 +43,6 @@ body:
     validations:
       required: false
     value: |
-        * 
         * Click on '....'
         * Scroll down to '....'
         * See error
