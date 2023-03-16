@@ -28,3 +28,22 @@ body:
       placeholder: ex. https://github.com/requirements/xxx
     validations:
       required: false
+  - type: input
+    id: requirement-url
+    attributes:
+      label: "UI Guideline"
+      description: Please enter a link of UI Guideline.
+    validations:
+      required: false    
+  - type: textarea
+    id: ui-id
+    attributes:
+      label: "UI IDs"
+      description: Please enter a list of IDs specified in the UI Guideline.
+    validations:
+      required: false
+    value: |
+        * 
+        * Click on '....'
+        * Scroll down to '....'
+        * See error
