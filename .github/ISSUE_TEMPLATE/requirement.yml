@@ -45,3 +45,13 @@ body:
         * 
     validations:
       required: false
+  - type: textarea
+    id: testcase-id
+    attributes:
+      label: "TestCase IDs"
+      description: Please enter a list of TestCase IDs.
+      value: |
+        * 
+        * 
+    validations:
+      required: false
