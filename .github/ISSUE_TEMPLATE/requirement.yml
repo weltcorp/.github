@@ -48,8 +48,8 @@ body:
   - type: textarea
     id: testcase-id
     attributes:
-      label: "TestCase IDs"
-      description: Please enter a list of TestCase IDs.
+      label: "TestCases"
+      description: Please enter a list of TestCases.
       value: |
         - [ ]
         - [ ]
@@ -59,8 +59,8 @@ body:
   - type: textarea
     id: impl-id
     attributes:
-      label: "Issues"
-      description: Please enter a list of Issues.
+      label: "Implements"
+      description: Please enter a list of Implemens.
       value: |
         - [ ]
         - [ ]
