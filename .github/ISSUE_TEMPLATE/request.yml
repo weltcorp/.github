@@ -1,0 +1,13 @@
+name: "Request"
+description: Create a new ticket for a new request
+labels: [
+  "request"
+]
+body:
+  - type: textarea
+    id: description
+    attributes:
+      label: "Description"
+      description: Please enter an explicit description of your issue
+    validations:
+      required: true
