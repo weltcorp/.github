@@ -51,7 +51,19 @@ body:
       label: "TestCase IDs"
       description: Please enter a list of TestCase IDs.
       value: |
-        * 
-        * 
+        - [ ]
+        - [ ]
+    validations:
+      required: false
+
+  - type: textarea
+    id: impl-id
+    attributes:
+      label: "Issues"
+      description: Please enter a list of Issues.
+      value: |
+        - [ ]
+        - [ ]
+        - [ ]
     validations:
       required: false
