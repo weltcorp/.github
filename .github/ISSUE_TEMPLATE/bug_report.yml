@@ -12,11 +12,11 @@ body:
       description: Please enter an explicit description of your issue
       placeholder: Short and explicit description of your incident...
       value: |
-      ### 사전조건
-      ### 기대결과
-      ### 실제결과
-      ### 테스트 데이터
-      ### 테스트 환경
+       사전조건
+       기대결과
+       실제결과
+       테스트 데이터
+       테스트 환경
     validations:
       required: true
   - type: input
