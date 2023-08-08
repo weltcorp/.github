@@ -1,6 +1,6 @@
 name: "🐛 Bug Report"
 description: Create a new ticket for a bug.
-title: "🐛 [BUG] - <title>"
+title: "🐛 [BUG] <title>"
 labels: [
   "bug"
 ]
@@ -20,7 +20,7 @@ body:
       description: Please enter your GitHub URL to provide a reproduction of the issue
       placeholder: ex. https://github.com/USERNAME/REPO-NAME
     validations:
-      required: true
+      required: false
   - type: textarea
     id: reprod
     attributes:
@@ -31,7 +31,6 @@ body:
         2. Click on '....'
         3. Scroll down to '....'
         4. See error
-      render: bash
     validations:
       required: true
   - type: textarea
@@ -73,6 +72,8 @@ body:
       description: What is the impacted environment ?
       multiple: true
       options:
+        - iOS
+        - Android
         - Windows
         - Linux
         - Mac
