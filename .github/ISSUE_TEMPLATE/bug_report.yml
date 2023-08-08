@@ -13,8 +13,8 @@ body:
       placeholder: Short and explicit description of your incident...
       value: |
       ### 사전조건
-      1. 내용입력
-      2. 내용입력
+      * 내용입력
+      * 내용입력
 
       ### 기대결과
 
